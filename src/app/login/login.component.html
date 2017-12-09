@@ -1,0 +1,12 @@
+<h3>Login</h3>
+<form [formGroup]="loginForm">
+    <label class="username-label">
+        <input type="text" class="username-input" formControlName="username">
+    </label>
+    <label class="password-label">
+        <input type="text" class="password-input" formControlName="password">
+    </label>
+
+    <button type="submit">Login</button>
+    <a href="/register">Register</a>
+</form>
